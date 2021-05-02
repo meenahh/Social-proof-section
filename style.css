@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.about h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: hsl(300, 43%, 22%);
+}
+
+.about p {
+    font-size: 14px;
+    color: hsl(303, 10%, 53%);
+}
+
+.customer-rating {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(300, 22%, 90%);
+    padding: 12px 40px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.rating-img {
+    margin-right: 16px;
+}
+
+.rating-2 {
+    margin-left: 16px;
+    width: 100%;
+}
+
+.rating-3 {
+    margin-left: 32px;
+    width: 100%;
+}
+
+.reviews {
+    margin-top: 50px;
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
+    
+    
+}
+ .testimonial {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    width: 300px;
+    height: 170px;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 16px;
+}
+
+.profile h3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.profile h5 {
+    font-size: 12px;
+    color: hsl(333, 44%, 42%);
+}
+
+.review p {
+    font-size: 12px;
+    color: hsl(300, 24%, 96%);
+    margin-top: 20px;
+   
+    line-height: 18px;
+}
+
+.testimonial-2 {
+    margin-top: 16px;
+}
+
+.testimonial-3 {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 376px) {
+    .about h1 {
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+        background-image: url('/images/bg-pattern-top-mobile.svg');
+        background-position: left;     
+    }
+
+    .about p {
+        font-size:10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .rating-2 {
+        margin: 0;
+    }
+
+    .rating-3 {
+        margin: 0;
+    }
+
+    .rating-img {
+        margin-right: 0;
+    }
+
+    .customer-rating {
+        justify-content: center;
+    }
+
+    .testimonial {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .reviews {
+        margin-bottom: 32px;
+        background-image: url(/images/bg-pattern-bottom-mobile.svg);
+        background-position: bottom;
+    }
+}
